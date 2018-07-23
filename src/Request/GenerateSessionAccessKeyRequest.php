@@ -17,9 +17,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Sts\Request\V20150401;
+namespace Aliyun\Sts\Request;
 
-class GenerateSessionAccessKeyRequest extends \RpcAcsRequest
+use Aliyun\Core\RpcAcsRequest;
+
+class GenerateSessionAccessKeyRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{
